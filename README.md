@@ -35,7 +35,7 @@ The supplied reference is a design target, not a flattened background. A real ge
 
 ## Advertising integration
 
-Google AdSense publisher `ca-pub-3728341118830943` and responsive footer unit `1630336858` were obtained from the connected owner account. The site includes publisher verification metadata and `public/ads.txt`. Optional advertising code loads only after Allow ads; Continue without ads leaves the poster editor fully usable. The app requests non-personalized advertising. A plain local opt-in is not a Google-certified CMP; configure Google's regional privacy messaging before serving personalized ads. Site registration, ownership verification, Google review, and DNS/custom-domain configuration remain separate account operations. The uploaded poster composition never includes ads. See `public/privacy.html` for the updated disclosure.
+Google AdSense publisher `ca-pub-3728341118830943` and responsive footer unit `1630336858` were obtained from the connected owner account. The site includes publisher verification metadata and `public/ads.txt`. Advertising is enabled by default without an initial app popup. Previously saved opt-outs and Global Privacy Control are respected. The footer retains privacy controls. The app requests non-personalized advertising. Local preferences are not a Google-certified CMP; regional consent must be handled through Google's privacy messaging. Site registration, ownership verification, Google review, and DNS/custom-domain configuration remain separate account operations. The uploaded poster composition never includes ads. See `public/privacy.html` for the updated disclosure.
 
 ## Atelier UI
 

@@ -37,6 +37,6 @@ export async function drawPoster(canvas:HTMLCanvasElement,s:Settings,photos:(Pho
  const sky=c.createLinearGradient(0,horizon-45,0,H);sky.addColorStop(0,'#d7bd8b00');sky.addColorStop(1,'#c0a77755');c.fillStyle=sky;c.fillRect(0,horizon-45,1080,H-horizon+45);
  c.fillStyle='#e7c783';c.beginPath();c.arc(540,horizon-4,22,0,Math.PI*2);c.fill();c.fillStyle='#fff5ceaa';c.beginPath();c.arc(534,horizon-10,8,0,Math.PI*2);c.fill();
  for(let layer=0;layer<3;layer++){c.beginPath();c.moveTo(0,H);for(let x=0;x<=1080;x+=20){const y=horizon+layer*24+Math.sin(x*.009+layer*2)*22+Math.cos(x*.023+layer)*10;c.lineTo(x,y);}c.lineTo(1080,H);c.closePath();c.fillStyle=['#6e7d7477','#37544a99','#193f33'][layer];c.fill();}
- const foot=H-42;line(foot-26,160);text('M A K E  Y O U R  O W N  ·  H O M E ,  F A R  A W A Y',540,foot,13,'#f0dfb5');text('Geography: Natural Earth · Hossain Najmul',540,foot+21,11,'#dacba6');
+ const foot=H-42;line(foot-26,160);text('M A K E  Y O U R  O W N  ·  H O M E ,  F A R  A W A Y',540,foot,13,'#f0dfb5');text('Geography: Natural Earth',540,foot+21,11,'#dacba6');
  photos.forEach((p,i)=>{if(p?.source)text(`${s.cities[i].name}: ${p.credit}`,540,H-105+i*12,10,'#eee0bc','Poster',950);});
 }
