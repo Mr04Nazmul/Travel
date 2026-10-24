@@ -40,3 +40,7 @@ Google AdSense publisher `ca-pub-3728341118830943` and responsive footer unit `1
 ## Atelier UI
 
 The editorial interface uses paper/forest/terracotta colors, a layered example-poster hero and four editor steps (Places, Personal, Photos, Export). The actual poster remains the dynamic canvas composition. Skiper UI scroll masking and Aceternity Flip Words are credited in source and the visible credits; see THIRD_PARTY_NOTICES.md. No paid components or Pro templates are included.
+
+## Custom domain
+
+`devnazu.online` is configured on this repository’s GitHub Pages settings. Onamae accepted four GitHub Pages A records for the apex and a www CNAME to mr04nazmul.github.io, with its DNS-record nameservers (01–04.dnsv.jp). DNS propagation and GitHub HTTPS issuance must complete before claiming public availability. The domain has been added to the owner’s AdSense Sites list; ownership verification and Google review are separate and must be confirmed in AdSense.
