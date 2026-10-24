@@ -36,3 +36,7 @@ The supplied reference is a design target, not a flattened background. A real ge
 ## Advertising integration
 
 Google AdSense publisher `ca-pub-3728341118830943` and responsive footer unit `1630336858` were obtained from the connected owner account. The site includes publisher verification metadata and `public/ads.txt`. Optional advertising code loads only after Allow ads; Continue without ads leaves the poster editor fully usable. The app requests non-personalized advertising. A plain local opt-in is not a Google-certified CMP; configure Google's regional privacy messaging before serving personalized ads. Site registration, ownership verification, Google review, and DNS/custom-domain configuration remain separate account operations. The uploaded poster composition never includes ads. See `public/privacy.html` for the updated disclosure.
+
+## Atelier UI
+
+The editorial interface uses paper/forest/terracotta colors, a layered example-poster hero and four editor steps (Places, Personal, Photos, Export). The actual poster remains the dynamic canvas composition. Skiper UI scroll masking and Aceternity Flip Words are credited in source and the visible credits; see THIRD_PARTY_NOTICES.md. No paid components or Pro templates are included.

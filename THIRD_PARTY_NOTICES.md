@@ -42,3 +42,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Atelier redesign components
+
+- Skiper UI Scroll with fade effect (Skiper87): https://skiper-ui.com/v1/skiper87. Source CSS adapted for the desktop editor with a shorter fade and mobile/reduced-motion fallback. Free personal/commercial usage with attribution; visible attribution appears in the website credits. Credits: Gur__vi / Skiper UI, Gustav Ekerot and jh3yy.
+- Aceternity UI Flip Words: https://ui.aceternity.com/components/flip-words, source registry https://ui.aceternity.com/registry/flip-words.json. Manu Arora / Aceternity. Used and modified as part of this end-product under https://ui.aceternity.com/licence, not offered as a standalone component or template. Added timer cleanup, reduced-motion behavior and an accessible static heading label. No paid Pro assets used.
