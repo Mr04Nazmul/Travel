@@ -9,7 +9,7 @@ Node 24: `npm ci`, `npm run dev`. Run `npm test` and `npm run build` before publ
 
 ## Features
 
-- Worldwide Open-Meteo / GeoNames city search with country/region disambiguation, request cancellation, errors and map/coordinate pin fallback.
+- Worldwide Open-Meteo / GeoNames city search with an explicit 250-country/territory selector (ISO regions plus Kosovo), country-filtered results, country/region disambiguation, request cancellation, errors and map/coordinate pin fallback. Cross-continent journey examples are resolved through the same live geographic API; they are not a fixed coverage list.
 - Local IANA zone lookup for manual pins; Intl formats actual dates and DST. Great-circle distance, km/miles. Natural Earth map fitted around the short longitudinal arc and sampled great-circle route.
 - One Canvas renderer for preview and exact PNG export. Locally hosted serif and Bengali fonts; original ivory and sage designs, Post and Story formats, 2× export.
 - Local uploads (JPG/PNG/WebP, 15 MB), local downsampling, horizontal/vertical crop, zoom, replace/remove. No photo upload to a server. Photos intentionally do not survive reload.
