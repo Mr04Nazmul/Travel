@@ -32,3 +32,7 @@ Relative Vite assets support `https://mr04nazmul.github.io/Travel/` and custom s
 ## Design and licenses
 
 The supplied reference is a design target, not a flattened background. A real geographic map and reusable code draw all dynamic content. Original abstract footer scenery is decorative, not a claimed photograph of either city. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for asset/component sources and licenses.
+
+## Advertising integration
+
+Google AdSense publisher `ca-pub-3728341118830943` and responsive footer unit `1630336858` were obtained from the connected owner account. The site includes publisher verification metadata and `public/ads.txt`. Optional advertising code loads only after Allow ads; Continue without ads leaves the poster editor fully usable. The app requests non-personalized advertising. A plain local opt-in is not a Google-certified CMP; configure Google's regional privacy messaging before serving personalized ads. Site registration, ownership verification, Google review, and DNS/custom-domain configuration remain separate account operations. The uploaded poster composition never includes ads. See `public/privacy.html` for the updated disclosure.
